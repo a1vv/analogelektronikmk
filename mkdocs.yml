@@ -1,6 +1,6 @@
 site_name: analogelektronik
 site_description: Anteckningar till kursen analog elektronik
-site_url: https://a1vv.github.io/analogelektronik/
+site_url: https://a1vv.github.io/analogelektronikmk/
 
 theme:
     name: 'material'
