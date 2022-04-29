@@ -1,6 +1,6 @@
-site_name: your_site_name
-site_description: A cool description
-site_url: https://mara-li.github.io/obsidian-mkdocs-publisher-template/
+site_name: analogelektronik
+site_description: Anteckningar till kursen analog elektronik
+site_url: https://a1vv.github.io/analogelektronik/
 
 theme:
     name: 'material'
