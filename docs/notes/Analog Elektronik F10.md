@@ -15,7 +15,7 @@ Bara [[poler]] i överföringen – inga [[nollställen]]. [[Dominanta och Icke-
 
 Om [[DC-slingförstärkning|DC-slingförstärkningen]] är för stor kan [[poler]] gå över till höger halvplan. [[Rotort|Rotorten]] säger var [[Systempoler|systempolerna]] ligger när $A \beta(0)$ går mot oändligheten.
 
-> Om systemet inte är [[Stabila och Instabila System|stabilt]] kan man få en för stor ringning, vilket är det som kan förstöra elektroniken
+> Om [[System|systemet]] inte är [[Stabila och Instabila System|stabilt]] kan man få en för stor ringning, vilket är det som kan förstöra elektroniken
 
 [[Fasmarginal]]
 

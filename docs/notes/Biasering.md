@@ -24,7 +24,7 @@ Bias är likström/spänning. Det innebär att [[Kapacitans|kondensatorer]] blir
 Man måste känna till de exakta offsetspänningarna resp strömmarna
 
 ### Tidsdomän
-Används i switchade system
+Används i switchade [[system]]
 ### Frekvensdomän
 ![[frekvensdomän bias.png]]
 ![[Pasted image 20220131132827.png]]

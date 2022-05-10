@@ -32,8 +32,10 @@ Fantomnollställe uppstår då $|z_{1}|$ ökar eller $|z_{2}|$ minskar.
 
 för två [[förstärkande steg]]:
 $$n_{ph}=\frac{-\omega_{0}^{2}}{\sqrt{2}\omega_{0}+p_{1}+p_{2}}$$
-$$n_{ph}=\frac{-1}{RC}$$
-$$C=\frac{1}{n_{ph }R}$$
+$$n_{ph}=-\frac{1}{RC} =- \frac{R}{L}$$
+$$C_{ph}=-
+\frac{1}{n_{ph }R}$$
+$$L_{ph}=-\frac{R}{n_{ph}}$$
 
 
 # Fantomnollans effektivitet

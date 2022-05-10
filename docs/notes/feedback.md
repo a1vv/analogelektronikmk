@@ -15,7 +15,7 @@ dg-publish: True
 ---
 > Har man olika enheter på in och utsignal behöver man endast en komponent i återkopplingsnätverket, annars behöver man två.
 
-Feedback/återkoppling kan läggas till i ett system för att kontrollera det! Om systemet är för känsligt för förändringar vid input kan feedback användas för att göra det mindre känsligt och därför mer [[Stabila och Instabila System|stabilt]]. 
+Feedback/återkoppling kan läggas till i ett [[system]] för att kontrollera det! Om systemet är för känsligt för förändringar vid input kan feedback användas för att göra det mindre känsligt och därför mer [[Stabila och Instabila System|stabilt]]. 
 
 Feedback systems can change and also reduce noise.
 
