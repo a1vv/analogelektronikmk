@@ -6,11 +6,11 @@
   <meta content="Anteckningar till kursen analog elektronik" name="description"/>
   <link href="https://a1vv.github.io/analogelektronikmk/notes/Laplace-planet/" rel="canonical"/>
   <link href="../../assets/logo/favicons.png" rel="icon"/>
-  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.13" name="generator"/>
+  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.14" name="generator"/>
   <title>
    Laplace planet - analogelektronik
   </title>
-  <link href="../../assets/stylesheets/main.e411adfe.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/main.3de6f41f.min.css" rel="stylesheet"/>
   <link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -752,7 +752,7 @@
   <script id="__config" type="application/json">
    {"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}
   </script>
-  <script src="../../assets/javascripts/bundle.ed9748b7.min.js">
+  <script src="../../assets/javascripts/bundle.c2e1ee47.min.js">
   </script>
   <script src="../../assets/js/mathjax.js">
   </script>
@@ -767,44 +767,17 @@
   <div class="tooltip_templates">
    <div id="överföringsfunktioner_tooltip_id">
     <p>
-     Generellt kan en överföringsfunktion skrivas på formen
+     För ett
+     <a class="wikilink" href="Linjära och Tidsinvarianta System">
+      linjärt tidsinvariant system
+     </a>
+     $S$ gäller
      <br/>
-     <a class="wikilink" href="överföringsfunktion">
-      Överföringsfunktion
-     </a>
+     $$e^{st}\xrightarrow{S}H(s)e^{st}$$
      <br/>
-     $n_{1}$, $n_{2}$ osv kallas
-     <a class="wikilink" href="nollställen">
-      Nollställen
-     </a>
-     och $p_1$, $p_2$ osv kallas
-     <a class="wikilink" href="poler">
-      Poler
-     </a>
-     .
+     där överföringsfunktionen ges av$$H(s)=\int_{-\infty}^{\infty}e^{-st}h(t)dt=\mathcal{L}(h(t))(s)$$
      <br/>
-     <a class="wikilink" href="/analogelektronikmk/notes/Poler">
-      Polerna
-     </a>
-     och nollställena kan markeras i
-     <a class="wikilink" href="/analogelektronikmk/notes/Laplace-planet">
-      s-planet
-     </a>
-     .
-     <a class="wikilink" href="/analogelektronikmk/notes/Poler">
-      Poler
-     </a>
-     markeras med x och
-     <a class="wikilink" href="nollställen">
-      Nollställen
-     </a>
-     med o.
-     <br/>
-     <a class="wikilink" href="polerochnollställenisplanet">
-      Polerochnollställenisplanet
-     </a>
-     <br/>
-     Förekommer endast i par, och är då konjugat till varandra.
+     där integralen kan tolkas som laplacetransformen av $h(t)$.
     </p>
    </div>
   </div>

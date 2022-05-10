@@ -6,11 +6,11 @@
   <meta content="Anteckningar till kursen analog elektronik" name="description"/>
   <link href="https://a1vv.github.io/analogelektronikmk/notes/Bipol%C3%A4r%20transistor/" rel="canonical"/>
   <link href="../../assets/logo/favicons.png" rel="icon"/>
-  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.13" name="generator"/>
+  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.14" name="generator"/>
   <title>
    Bipolär transistor - analogelektronik
   </title>
-  <link href="../../assets/stylesheets/main.e411adfe.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/main.3de6f41f.min.css" rel="stylesheet"/>
   <link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -682,11 +682,6 @@
      <div class="md-content" data-md-component="content">
       <article class="md-content__inner md-typeset">
        <p>
-        <img alt="300" src="../../assets/img/bipol%C3%A4ratransistorer.png" title="300"/>
-       </p>
-       <p>
-        <img alt="400" src="../../assets/img/npn%20transistor.png" title="400"/>
-        <br/>
         Bipolära
         <a class="link-tooltip" data-tooltip-content="#transistorer_tooltip_id" href="../Transistor/" title="transistorer">
          transistorer
@@ -715,14 +710,16 @@
         <a href="../potential" title="potential">
          potential
         </a>
-        . Vi kan rita de i samma diagram. Elektroner uppför sig som vatten och hål uppför sig som ‘bubblor’ i vatten.
+        . Vi kan rita de i samma diagram. Elektroner uppför sig som vatten och hål uppför sig som ‘bubblor’ i vatten. Bipolär = både elektroner och hål!
+        <br/>
+        <img alt="300" src="../../assets/img/bipol%C3%A4ratransistorer.png" title="300"/>
        </p>
        <p>
         De använder sig av samma princip som
         <a class="link-tooltip" data-tooltip-content="#pndioder_tooltip_id" href="../PN-diod/" title="pn-dioder">
          pn-dioder
         </a>
-        och kan ses som två
+        (PN-övergång) och kan ses som två
         <a class="link-tooltip" data-tooltip-content="#PNdioder_tooltip_id" href="../PN-diod/" title="PN-dioder">
          PN-dioder
         </a>
@@ -735,6 +732,14 @@
          kapacitanser
         </a>
         .
+       </p>
+       <p>
+        <img alt="400" src="../../assets/img/npn%20transistor.png" title="400"/>
+       </p>
+       <p>
+        <img alt="250" src="../../assets/img/Pasted%20image%2020220510111757.png" title="250"/>
+        <br/>
+        Emittorn emitterar elektroner till kollektorn. När man framspänner PN-övergången mellan bas och emittorn flödar elektroner från emittor till kollektor, men samtidigt flödar det in hål genom basen! Det är därför det uppkommer både en kollektorström och en basström.
        </p>
        <p>
         Till skillnad från i
@@ -754,6 +759,19 @@
        <div class="arithmatex">
         \[\omega_{T}=\frac{g_{m}}{c_{\pi}}=\frac{\beta_{f}}{r_{\pi}c_{\pi}}\]
        </div>
+       <p>
+        <span class="arithmatex">
+         \(\beta=\frac{I_{C}}{I_{B}}=\frac{\mu_{n}W_{E}N_{DE}}{\mu_{p}W_{B}N_{AB}}\)
+        </span>
+        och är ett mått på strömförstärkningen! “Hur mycket större är Ic än Ib”
+       </p>
+       <p>
+        Utnyttjar att strömmen är oberoende av spänningen i en backspänd PN-övergång. (tänk kurvan för hur strömmen
+        <span class="arithmatex">
+         \(I_{C}\)
+        </span>
+        beror på spänningen exponentiellt. På vänster halvplan är strömmen linjär och ligger väldigt nära under x-axeln!)
+       </p>
        <h1 id="modeller">
         Modeller
         <a class="headerlink" href="#modeller" title="Permanent link">
@@ -832,7 +850,7 @@
   <script id="__config" type="application/json">
    {"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}
   </script>
-  <script src="../../assets/javascripts/bundle.ed9748b7.min.js">
+  <script src="../../assets/javascripts/bundle.c2e1ee47.min.js">
   </script>
   <script src="../../assets/js/mathjax.js">
   </script>

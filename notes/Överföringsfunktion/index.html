@@ -6,11 +6,11 @@
   <meta content="Anteckningar till kursen analog elektronik" name="description"/>
   <link href="https://a1vv.github.io/analogelektronikmk/notes/%C3%96verf%C3%B6ringsfunktion/" rel="canonical"/>
   <link href="../../assets/logo/favicons.png" rel="icon"/>
-  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.13" name="generator"/>
+  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.14" name="generator"/>
   <title>
    Överföringsfunktion - analogelektronik
   </title>
-  <link href="../../assets/stylesheets/main.e411adfe.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/main.3de6f41f.min.css" rel="stylesheet"/>
   <link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -50,6 +50,9 @@
   <label class="md-overlay" for="__drawer">
   </label>
   <div data-md-component="skip">
+   <a class="md-skip" href="#differentialekvationer">
+    Skip to content
+   </a>
   </div>
   <div data-md-component="announce">
   </div>
@@ -631,9 +634,38 @@
              </li>
              <li class="md-nav__item md-nav__item--active">
               <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+              <label class="md-nav__link md-nav__link--active" for="__toc">
+               Överföringsfunktion
+               <span class="md-nav__icon md-icon">
+               </span>
+              </label>
               <a class="md-nav__link md-nav__link--active" href="./">
                Överföringsfunktion
               </a>
+              <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+               <label class="md-nav__title" for="__toc">
+                <span class="md-nav__icon md-icon">
+                </span>
+                Table of contents
+               </label>
+               <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#differentialekvationer">
+                  Differentialekvationer
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#poler-och-nollstallen">
+                  Poler och nollställen
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#se-ocksa">
+                  Se också
+                 </a>
+                </li>
+               </ul>
+              </nav>
              </li>
              <li class="md-nav__item">
               <a class="md-nav__link" href="../%C3%96verg%C3%A5ngsfrekvens/">
@@ -672,6 +704,28 @@
       <div class="md-sidebar__scrollwrap">
        <div class="md-sidebar__inner">
         <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+         <label class="md-nav__title" for="__toc">
+          <span class="md-nav__icon md-icon">
+          </span>
+          Table of contents
+         </label>
+         <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#differentialekvationer">
+            Differentialekvationer
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#poler-och-nollstallen">
+            Poler och nollställen
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#se-ocksa">
+            Se också
+           </a>
+          </li>
+         </ul>
         </nav>
        </div>
       </div>
@@ -681,6 +735,82 @@
        <h1>
         Överföringsfunktion
        </h1>
+       <p>
+        För ett
+        <a href="../Linj%C3%A4ra%20och%20Tidsinvarianta%20System" title="linjärt tidsinvariant system">
+         linjärt tidsinvariant system
+        </a>
+        <span class="arithmatex">
+         \(S\)
+        </span>
+        gäller
+        <br/>
+        <span class="arithmatex">
+         \(
+         <span class="arithmatex">
+          \(e^{st}\xrightarrow{S}H(s)e^{st}\)
+         </span>
+         \)
+        </span>
+        <br/>
+        där överföringsfunktionen ges av
+        <span class="arithmatex">
+         \(
+         <span class="arithmatex">
+          \(H(s)=\int_{-\infty}^{\infty}e^{-st}h(t)dt=\mathcal{L}(h(t))(s)\)
+         </span>
+         \)
+        </span>
+        <br/>
+        där integralen kan tolkas som laplacetransformen av
+        <span class="arithmatex">
+         \(h(t)\)
+        </span>
+        .
+       </p>
+       <h2 id="differentialekvationer">
+        <a href="../Differentialekvationer" title="Differentialekvationer">
+         Differentialekvationer
+        </a>
+        <a class="headerlink" href="#differentialekvationer" title="Permanent link">
+         ¶
+        </a>
+       </h2>
+       <p>
+        Om man har en funktion som
+        <br/>
+        <span class="arithmatex">
+         \(
+         <span class="arithmatex">
+          \(y'''+3y'+y=2w''+w\)
+         </span>
+         \)
+        </span>
+        <br/>
+        blir överföringsfunktionen
+        <br/>
+        <span class="arithmatex">
+         \(
+         <span class="arithmatex">
+          \(H(s)=\frac{2s^{2}+1}{s^{3}+3s+1}\)
+         </span>
+         \)
+        </span>
+        <br/>
+        dvs insignal genom utsignal.
+       </p>
+       <h2 id="poler-och-nollstallen">
+        <a class="link-tooltip" data-tooltip-content="#Poler_tooltip_id" href="../Poler/" title="Poler">
+         Poler
+        </a>
+        och
+        <a href="../nollst%C3%A4llen" title="nollställen">
+         nollställen
+        </a>
+        <a class="headerlink" href="#poler-och-nollstallen" title="Permanent link">
+         ¶
+        </a>
+       </h2>
        <p>
         Generellt kan en överföringsfunktion skrivas på formen
         <br/>
@@ -747,6 +877,57 @@
         </a>
         eller inte.
        </p>
+       <blockquote>
+        <p>
+         Alla poler till överföringsfunktionen är egenvärden till systemmatrisen och altså egensvängningsfrekvenser till systemet. Om
+         <span class="arithmatex">
+          \(s=p\)
+         </span>
+         är en pol till
+         <span class="arithmatex">
+          \(H(s)\)
+         </span>
+         så finns en fri svängning till systemet med tidsberoende av formen
+         <span class="arithmatex">
+          \(e^{pt}\)
+         </span>
+         .
+        </p>
+       </blockquote>
+       <h2 id="se-ocksa">
+        Se också
+        <a class="headerlink" href="#se-ocksa" title="Permanent link">
+         ¶
+        </a>
+       </h2>
+       <p>
+        <a href="../Samband%20mellan%20impulssvar%20och%20%C3%B6verf%C3%B6ringsfunktion" title="Samband mellan impulssvar och överföringsfunktion">
+         Samband mellan impulssvar och överföringsfunktion
+        </a>
+       </p>
+       <p>
+        Antag att
+        <span class="arithmatex">
+         \(S\)
+        </span>
+        är LTI och reellt (dvs
+        <a href="../Impulssvar" title="impulssvaret">
+         impulssvaret
+        </a>
+        är reellt). Då är
+       </p>
+       <ol>
+        <li>
+         <span class="arithmatex">
+          \(S(sin(wt))=A(w)sin(wt+\varphi(w))\)
+         </span>
+        </li>
+        <li>
+         <span class="arithmatex">
+          \(S(cos(wt))=A(w)cos(wt+\varphi(w))\)
+         </span>
+        </li>
+       </ol>
       </article>
      </div>
     </div>
@@ -808,7 +989,7 @@
   <script id="__config" type="application/json">
    {"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}
   </script>
-  <script src="../../assets/javascripts/bundle.ed9748b7.min.js">
+  <script src="../../assets/javascripts/bundle.c2e1ee47.min.js">
   </script>
   <script src="../../assets/js/mathjax.js">
   </script>
@@ -820,6 +1001,21 @@
   </script>
   <script src="../../assets/js/tooltipster.bundle.js">
   </script>
+  <div class="tooltip_templates">
+   <div id="Poler_tooltip_id">
+    <p>
+     En funktion $f$ har en pol i $z=c$ om gränsvärdet är oändligheten. Det enklaste exemplet är
+     <a class="wikilink" href="Rationella Funktioner">
+      Rationella Funktioner
+     </a>
+     ;
+     <a class="wikilink" href="nollställen">
+      Nollställen
+     </a>
+     till nämnaren ger upphov till poler.
+    </p>
+   </div>
+  </div>
   <div class="tooltip_templates">
    <div id="Polerna_tooltip_id">
     <p>
