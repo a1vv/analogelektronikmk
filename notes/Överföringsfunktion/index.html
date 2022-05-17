@@ -6,11 +6,11 @@
   <meta content="Anteckningar till kursen analog elektronik" name="description"/>
   <link href="https://a1vv.github.io/analogelektronikmk/notes/%C3%96verf%C3%B6ringsfunktion/" rel="canonical"/>
   <link href="../../assets/logo/favicons.png" rel="icon"/>
-  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.14" name="generator"/>
+  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.15" name="generator"/>
   <title>
    Överföringsfunktion - analogelektronik
   </title>
-  <link href="../../assets/stylesheets/main.3de6f41f.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/main.c382b1dc.min.css" rel="stylesheet"/>
   <link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -762,12 +762,43 @@
          \)
         </span>
         <br/>
-        där integralen kan tolkas som laplacetransformen av
+        där integralen kan tolkas som
+        <a href="../Laplacetransformationer" title="laplacetransformen">
+         laplacetransformen
+        </a>
+        av
         <span class="arithmatex">
          \(h(t)\)
         </span>
         .
        </p>
+       <p>
+        Antag att
+        <span class="arithmatex">
+         \(S\)
+        </span>
+        är
+        <a href="../Linj%C3%A4ra%20och%20Tidsinvarianta%20System" title="LTI">
+         LTI
+        </a>
+        och reellt (dvs
+        <a href="../Impulssvar" title="impulssvaret">
+         impulssvaret
+        </a>
+        är reellt). Då är
+       </p>
+       <ol>
+        <li>
+         <span class="arithmatex">
+          \(S(sin(wt))=A(w)sin(wt+\varphi(w))\)
+         </span>
+        </li>
+        <li>
+         <span class="arithmatex">
+          \(S(cos(wt))=A(w)cos(wt+\varphi(w))\)
+         </span>
+        </li>
+       </ol>
        <h2 id="differentialekvationer">
         <a href="../Differentialekvationer" title="Differentialekvationer">
          Differentialekvationer
@@ -879,15 +910,35 @@
        </p>
        <blockquote>
         <p>
-         Alla poler till överföringsfunktionen är egenvärden till systemmatrisen och altså egensvängningsfrekvenser till systemet. Om
+         Alla
+         <a href="../poler" title="poler">
+          poler
+         </a>
+         till överföringsfunktionen är
+         <a href="../egenv%C3%A4rden" title="egenvärden">
+          egenvärden
+         </a>
+         till systemmatrisen och altså egensvängningsfrekvenser till
+         <a href="../System" title="systemet">
+          systemet
+         </a>
+         . Om
          <span class="arithmatex">
           \(s=p\)
          </span>
-         är en pol till
+         är en
+         <a class="link-tooltip" data-tooltip-content="#pol_tooltip_id" href="../Poler/" title="pol">
+          pol
+         </a>
+         till
          <span class="arithmatex">
           \(H(s)\)
          </span>
-         så finns en fri svängning till systemet med tidsberoende av formen
+         så finns en fri svängning till
+         <a href="../System" title="systemet">
+          systemet
+         </a>
+         med tidsberoende av formen
          <span class="arithmatex">
           \(e^{pt}\)
          </span>
@@ -904,30 +955,19 @@
         <a href="../Samband%20mellan%20impulssvar%20och%20%C3%B6verf%C3%B6ringsfunktion" title="Samband mellan impulssvar och överföringsfunktion">
          Samband mellan impulssvar och överföringsfunktion
         </a>
-       </p>
-       <p>
-        Antag att
-        <span class="arithmatex">
-         \(S\)
-        </span>
-        är LTI och reellt (dvs
-        <a href="../Impulssvar" title="impulssvaret">
-         impulssvaret
+        <br/>
+        <a href="../Amplitudfunktionen" title="amplitudfunktion">
+         amplitudfunktion
         </a>
-        är reellt). Då är
+        <br/>
+        <a href="../Frekvensfunktion" title="Frekvensfunktion">
+         Frekvensfunktion
+        </a>
+        <br/>
+        <a href="../Fasfunktionen" title="fasfunktion">
+         fasfunktion
+        </a>
        </p>
-       <ol>
-        <li>
-         <span class="arithmatex">
-          \(S(sin(wt))=A(w)sin(wt+\varphi(w))\)
-         </span>
-        </li>
-        <li>
-         <span class="arithmatex">
-          \(S(cos(wt))=A(w)cos(wt+\varphi(w))\)
-         </span>
-        </li>
-       </ol>
       </article>
      </div>
     </div>
@@ -989,7 +1029,7 @@
   <script id="__config" type="application/json">
    {"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}
   </script>
-  <script src="../../assets/javascripts/bundle.c2e1ee47.min.js">
+  <script src="../../assets/javascripts/bundle.a6c66575.min.js">
   </script>
   <script src="../../assets/js/mathjax.js">
   </script>
@@ -1034,7 +1074,11 @@
   <div class="tooltip_templates">
    <div id="splanet_tooltip_id">
     <p>
-     s-planet är ett komplext talplan som är kopplat til Laplacetransformen. Vi använder det för att beskriva
+     s-planet är ett komplext talplan som är kopplat til
+     <a class="wikilink" href="Laplacetransformationer">
+      Laplacetransformen
+     </a>
+     . Vi använder det för att beskriva
      <a class="wikilink" href="/analogelektronikmk/notes/Överföringsfunktion">
       överföringsfunktioner
      </a>
@@ -1087,6 +1131,21 @@
       System
      </a>
      , för om man puttar lite på pendeln kommer den svänga in sig själv till samma position. Om den pekar rakt upp däremot behöver man bara peta på den för att den ska falla ned, och aldrig återgå till samma position.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="pol_tooltip_id">
+    <p>
+     En funktion $f$ har en pol i $z=c$ om gränsvärdet är oändligheten. Det enklaste exemplet är
+     <a class="wikilink" href="Rationella Funktioner">
+      Rationella Funktioner
+     </a>
+     ;
+     <a class="wikilink" href="nollställen">
+      Nollställen
+     </a>
+     till nämnaren ger upphov till poler.
     </p>
    </div>
   </div>

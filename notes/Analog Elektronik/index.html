@@ -6,11 +6,11 @@
   <meta content="Anteckningar till kursen analog elektronik" name="description"/>
   <link href="https://a1vv.github.io/analogelektronikmk/notes/Analog%20Elektronik/" rel="canonical"/>
   <link href="../../assets/logo/favicons.png" rel="icon"/>
-  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.14" name="generator"/>
+  <meta content="mkdocs-1.3.0, mkdocs-material-8.2.15" name="generator"/>
   <title>
    Analog Elektronik - analogelektronik
   </title>
-  <link href="../../assets/stylesheets/main.3de6f41f.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/main.c382b1dc.min.css" rel="stylesheet"/>
   <link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -767,9 +767,7 @@
         </a>
        </h1>
        <div class="dataview">
-        LIST FROM **föreläsning**{: #föreläsning .hash}  
- AND **analogelektronik**{: #analogelektronik .hash}  
- SORT file.name DESC
+        LIST FROM #föreläsning AND #analogelektronik SORT file.name DESC
        </div>
        <h1 id="laborationer">
         Laborationer
@@ -778,9 +776,7 @@
         </a>
        </h1>
        <div class="dataview">
-        LIST FROM **laboration**{: #laboration .hash}  
- AND **analogelektronik**{: #analogelektronik .hash}  
-  SORT ASC
+        LIST FROM #laboration AND #analogelektronik  SORT ASC
        </div>
        <h1 id="ovning">
         Övning
@@ -789,9 +785,7 @@
         </a>
        </h1>
        <div class="dataview">
-        LIST FROM **övning**{: #övning .hash}  
- AND **analogelektronik**{: #analogelektronik .hash}  
-  SORT ASC
+        LIST FROM #övning AND #analogelektronik  SORT ASC
        </div>
        <h1 id="seminarium">
         Seminarium
@@ -800,9 +794,7 @@
         </a>
        </h1>
        <div class="dataview">
-        LIST FROM **seminarium**{: #seminarium .hash}  
- AND **analogelektronik**{: #analogelektronik .hash}  
-  SORT ASC
+        LIST FROM #seminarium AND #analogelektronik  SORT ASC
        </div>
        <h1 id="inlamningar">
         Inlämningar
@@ -811,9 +803,7 @@
         </a>
        </h1>
        <div class="dataview">
-        LIST FROM **inlämning**{: #inlämning .hash}  
- AND **analogelektronik**{: #analogelektronik .hash}  
-  SORT ASC
+        LIST FROM #inlämning AND #analogelektronik  SORT ASC
        </div>
        <h1 id="kvistar">
         Kvistar
@@ -826,8 +816,7 @@
     dateformat(file.ctime,"MMM dd yyyy") as "Planted at",
     dateformat(file.mtime,"MMM dd yyyy") as "Last tended to",
     length(file.inlinks)+length(file.outlinks) as "In/Out Links"
-FROM **analogelektronik**{: #analogelektronik .hash}  
-
+FROM #analogelektronik  
 sort length(file.inlinks)+length(file.outlinks) DESC
        </div>
       </article>
@@ -891,7 +880,7 @@ sort length(file.inlinks)+length(file.outlinks) DESC
   <script id="__config" type="application/json">
    {"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}
   </script>
-  <script src="../../assets/javascripts/bundle.c2e1ee47.min.js">
+  <script src="../../assets/javascripts/bundle.a6c66575.min.js">
   </script>
   <script src="../../assets/js/mathjax.js">
   </script>
