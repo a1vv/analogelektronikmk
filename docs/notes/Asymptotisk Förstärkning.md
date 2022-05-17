@@ -2,8 +2,8 @@
 aliases: 
 - asymptotic gain
 - asymptotiska förstärkningen
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Den önskade [[Förstärkning|förstärkningen,]] $A_{t\infty}$ , beskriver den ideala [[Förstärkning|förstärkningen]] (när $|A| \rightarrow \infty$). Det är den [[förstärkning]] man får av en ideal [[förstärkare]].

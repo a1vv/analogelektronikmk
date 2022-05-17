@@ -2,9 +2,9 @@
 aliases: 
 - storsignaler
 - storsignalen
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 $V_G$ storsignal (stora bokstäver)
 	- Påverkar [[Arbetspunkt|arbetspunkten]]

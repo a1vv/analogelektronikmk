@@ -1,7 +1,7 @@
 ---
 aliases: 
 - frekvensberoendet
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---

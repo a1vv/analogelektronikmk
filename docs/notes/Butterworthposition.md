@@ -1,9 +1,9 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 [[Poler|polerna]] ligger i en cirkelbåge med samma vinkel emellan i vänster halvplan, speglat i y-led??
 ![[Pasted image 20220321105214.png]]

@@ -2,9 +2,9 @@
 aliases: 
 - Loop-gain-poles product
 - loop-gain pole product
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 $\omega_{0}=^{n}\sqrt{LP_{n}}$ 
 $LP_{n}=[1-A \beta(0)]p_{1}p_{2}...p_{n}$

@@ -1,9 +1,9 @@
 ---
 aliases: 
 - stegsvaret
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Förändringen över tiden på en eller flera utgångar i ett generellt [[system]] när en eller flera ingångar snabbt ändrar sig från noll till ett ([[enhetssteg]]), är stegsvaret. Ju större [[bandbredd]] (dvs hur större negativ polen är), desto snabbare stegsvar!
 

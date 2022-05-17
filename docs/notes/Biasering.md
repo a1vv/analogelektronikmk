@@ -5,9 +5,9 @@ aliases:
 - biaseras
 - biaserade
 - biaserad
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Biasing is the setting of initial operating conditions (current and voltage) of an active device in an [[Förstärkare|amplifier]]. All non-linear functions used in amplifiers need bias to obtain the desired [[Arbetspunkt|operating point]]. Bias is also needed to provide the [[transistor]] with [[Effekt|power]] to make power [[Förstärkning|amplification]] possible.
 

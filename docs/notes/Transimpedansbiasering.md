@@ -1,9 +1,9 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
-för att ha en [[förstärkare]] med några [[Transistor|transistorer]] behöver man några fler för att få det att funka, men dessa ska inte påverka utan sätter endast [[Arbetspunkt|arbetspunkten]]. Använd [[Transistor|transistorer]] för att skapa [[Strömspegling]] för att sätta biaseringsströmmar. Referensströmmen för speglingen kan vara typ 0.1mA? Vi undviker ett stort DC-skifte genom att byta ut [[Transistor|transistorerna]] i ett av stegen mot dess komplement (NPN vs PNP). På föreläsnignen använde han PNP på [[GE-steget]] och NPN på [[Antiseriesteget|AS-steget]].
+för att ha en [[förstärkare]] med några [[Transistor|transistorer]] behöver man några fler för att få det att funka, men dessa ska inte påverka utan sätter endast [[Arbetspunkt|arbetspunkten]]. Använd [[Transistor|transistorer]] för att skapa [[Strömspegling]] för att sätta biaseringsströmmar. Referensströmmen för speglingen kan vara typ 0.1mA? Vi undviker ett stort DC-skifte genom att byta ut [[Transistor|transistorerna]] i ett av stegen mot dess komplement ([[Bipolär transistor|NPN]] vs [[Bipolär transistor|PNP]]). På föreläsnignen använde han [[Bipolär transistor|PNP]] på [[GE-steget]] och [[Bipolär transistor|NPN]] på [[Antiseriesteget|AS-steget]].
 
 Sätt [[Kapacitans|kondensatorer]] mellan +10V och jord på kopplingsdäcket i labbet för att förhindra [[Signal|signalen]] för att “gå ut och vända” i powerboxen. Minskar brus och [[störningar]] från powerboxen!
 

@@ -1,7 +1,4 @@
 ---
-tags: 
-- systemochtransformer
-- analogelektronik
 aliases: 
 - stabilt
 - instabilt
@@ -15,6 +12,9 @@ aliases:
 - stabil
 - ostabil
 dg-publish: True
+tags: 
+- systemochtransformer
+- analogelektronik
 ---
 [[System]] brukar kallas **instabila** om en liten förändring av insignalerna leda till ett obegränsat växande av [[Tillståndsvariabler|tillståndsvariablerna]]. Är ett [[system]] stabilt å andra sidan så svänger det in sig snabbt. Tänk en pendel, det finns ett fall där den hänger rakt ned, och ett annat fall när den pekar rakt upp. När den hänger rakt ned är det ett stabilt [[system]], för om man puttar lite på pendeln kommer den svänga in sig själv till samma position. Om den pekar rakt upp däremot behöver man bara peta på den för att den ska falla ned, och aldrig återgå till samma position.
 

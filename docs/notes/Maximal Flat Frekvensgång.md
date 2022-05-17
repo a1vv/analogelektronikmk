@@ -6,9 +6,9 @@ aliases:
 - MFM
 - MFM system
 - MFM-system
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Ett vanligt önskemål är att [[Förstärkning|förstärkningen]] skall vara lika för alla frekvenser hos [[Signal|signalen]]. Detta stämmer när [[Systempoler|systempolerna]] ligger i [[Butterworthposition]]
 

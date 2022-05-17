@@ -7,9 +7,9 @@ aliases:
 - kapacitansen
 - kapacitiv
 - kapacitivt
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 $$
 C = \epsilon \frac{A}{d}

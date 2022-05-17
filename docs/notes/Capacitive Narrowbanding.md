@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 En [[Dominanta och Icke-dominanta poler|dominant pol]] läggs till eller en befintlig [[Poler|pol]] flyttas ner i frekvens
 det lämnar [[DC-slingförstärkning|DC-slingförstärkningen]] oförändrad, $\Pi p$ minskar med faktorn k, blir stor förlust i [[LP-produkten]] vilket minskar [[Bandbredd|bandbredden]].

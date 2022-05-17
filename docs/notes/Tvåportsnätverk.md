@@ -3,9 +3,9 @@ aliases:
 - tvåporten
 - tvåport
 - tvåportens
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Man kan förenkla en krets med ett tvåportsnätverk för att göra det lättare att analysera kretsen. Det enda man vet om tvåporten är föråhllandet mellan spänningen/strömmen på ingångarna och utgångarna. Förhållandet kan beskrivas med en [[matris]] enligt:
 

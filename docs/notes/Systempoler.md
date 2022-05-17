@@ -5,9 +5,9 @@ aliases:
 - systempol
 - systempolen
 - systempolerna
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Alla [[poler]] man får av [[Överföringsfunktion|överföringsfunktionen]] (dvs när nämnaren är noll) kallas systempoler, och är de frekvenser då “the system response is infinite” – EFTERSOM [[Överföringsfunktion|överföringsfunktionen]] har en singularitet i den punkten, och [[Överföringsfunktion|överföringsfunktionen]] visar hur systemets utsignal beror på insignalen.
 

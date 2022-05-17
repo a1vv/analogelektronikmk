@@ -2,9 +2,9 @@
 aliases: 
 - theveninekvivalent
 - nortonekvivalent
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 En [[Källor (elektronik)|strömkälla]] kan modelleras med en ideal [[Källor (elektronik)|strömkälla]] parallellt med en [[Resistans]] och en [[Källor (elektronik)|spänningskälla]] kan modelleras med en ideal [[Källor (elektronik)|spänningskälla]] [[Serie- och paralell-kopplingar|i serie]] med en [[Resistans]] (se [[Källor (elektronik)]]).
 

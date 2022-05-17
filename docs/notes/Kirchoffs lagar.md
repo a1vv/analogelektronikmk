@@ -4,9 +4,9 @@ aliases:
 - KCL
 - kirchoffs spänningslag
 - KVL
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 # Kirchoffs Strömlag
 Det måste gå ut lika mycket ström som det går in i varje nod i en krets. 

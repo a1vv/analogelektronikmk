@@ -1,10 +1,10 @@
 ---
-tags: 
-- komponentfysik
-- analogelektronik
 aliases: 
 - nmos
 dg-publish: True
+tags: 
+- komponentfysik
+- analogelektronik
 ---
 En nMOS använder sig av ett substrat av [[Dopning|p-typ]]. 
 

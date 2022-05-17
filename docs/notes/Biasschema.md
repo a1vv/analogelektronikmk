@@ -1,9 +1,9 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 # Signalschema
 [[Signal|Signaler]] är oftast växelström/spänning

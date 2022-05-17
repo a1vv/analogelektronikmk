@@ -1,10 +1,10 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - övning
 - analogelektronik
-dg-publish: True
 ---
 vi gör egentligen samma sak som vi har gjort innan fast med en djupare förståelse av [[frekvensberoende]]. 
 

@@ -2,9 +2,9 @@
 aliases: 
 - rotorten
 - root locus
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 ## Vad är rotort?
 Rotorten är en grafisk representation av hur [[Systempoler|systempolerna]] rör sig när [[Slingförstärkning|slingförstärkningen]] ökar. När [[Slingförstärkning|slingförstärkningen]] är noll befinner vi oss i våra [[Slingpoler och Slingnollställen|slingpoler]]. När vi ökar [[Slingförstärkning|slingförstärkningen]] (ex genom att ändra värden på resistorer? #question) förflyttar vi oss längs rotorten, och [[Systempoler|systempolerna]] förflyttar sig ut från [[Slingpoler och Slingnollställen|slingpolerna]]!! 

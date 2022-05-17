@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 [[Kapacitans|Kapacitanser]] inkluderas i [[Hybrid pi-modellen för bjt]]
 ![[hybrid-pi-modellen-bjt.png|450]]

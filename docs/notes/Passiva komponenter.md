@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Passiva komponenter kräver ingen extern strömförsörjning för att fungera.
 

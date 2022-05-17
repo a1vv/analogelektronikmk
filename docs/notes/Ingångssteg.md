@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 ## Ingångssteg
 Ingångssteget ska bidra till hög [[Förstärkning|slingförstärkning]]. Då [[Signal|signalen]] är liten kommer det brus som genereras i ingångssteget att påverka [[Signal|signalen]].

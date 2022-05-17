@@ -1,9 +1,9 @@
 ---
 aliases: 
 - diskrepansfaktorn
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Se [[Förstärkning]]
  $$\frac{-A\beta}{1-A\beta}$$

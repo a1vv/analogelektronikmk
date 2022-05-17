@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 [[Källor (elektronik)]]
 [[Passiva komponenter]]

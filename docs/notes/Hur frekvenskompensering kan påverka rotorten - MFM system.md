@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 [[Frekvenskompensering]] påverkar [[Rotort|rotorten]] / man kan få en intuitiv förståelse av vad som händer vid [[frekvenskompensering]] mha [[rotort]].
 

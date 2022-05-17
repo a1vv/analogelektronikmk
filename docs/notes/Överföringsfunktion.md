@@ -4,14 +4,20 @@ aliases:
 - överföringsfunktioner
 - transfer function
 - transfer functionsa
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 För ett [[Linjära och Tidsinvarianta System|linjärt tidsinvariant system]] $S$ gäller
 $$e^{st}\xrightarrow{S}H(s)e^{st}$$
 där överföringsfunktionen ges av$$H(s)=\int_{-\infty}^{\infty}e^{-st}h(t)dt=\mathcal{L}(h(t))(s)$$
-där integralen kan tolkas som laplacetransformen av $h(t)$.
+där integralen kan tolkas som [[Laplacetransformationer|laplacetransformen]] av $h(t)$.
+
+
+Antag att $S$ är [[Linjära och Tidsinvarianta System|LTI]] och reellt (dvs [[Impulssvar|impulssvaret]] är reellt). Då är 
+1. $S(sin(wt))=A(w)sin(wt+\varphi(w))$
+2. $S(cos(wt))=A(w)cos(wt+\varphi(w))$
+
 
 ## [[Differentialekvationer]]
 Om man har en funktion som 
@@ -31,12 +37,11 @@ Förekommer endast i par, och är då konjugat till varandra.
 
 Placeringen av [[Singularitet|singulariteterna]] i överföringsfunktionen avgör exempelvis om ett [[system]] är [[Stabila och Instabila System|stabilt]] eller inte.
 
-> Alla poler till överföringsfunktionen är egenvärden till systemmatrisen och altså egensvängningsfrekvenser till systemet. Om $s=p$ är en pol till $H(s)$ så finns en fri svängning till systemet med tidsberoende av formen $e^{pt}$.
+> Alla [[poler]] till överföringsfunktionen är [[egenvärden]] till systemmatrisen och altså egensvängningsfrekvenser till [[System|systemet]]. Om $s=p$ är en [[Poler|pol]] till $H(s)$ så finns en fri svängning till [[System|systemet]] med tidsberoende av formen $e^{pt}$.
+
 
 ## Se också
 [[Samband mellan impulssvar och överföringsfunktion]]
-
-
-Antag att $S$ är LTI och reellt (dvs [[Impulssvar|impulssvaret]] är reellt). Då är 
-1. $S(sin(wt))=A(w)sin(wt+\varphi(w))$
-2. $S(cos(wt))=A(w)cos(wt+\varphi(w))$
+[[Amplitudfunktionen|amplitudfunktion]]
+[[Frekvensfunktion]]
+[[Fasfunktionen|fasfunktion]]

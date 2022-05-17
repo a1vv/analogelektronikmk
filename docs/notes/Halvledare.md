@@ -4,10 +4,10 @@ aliases:
 - halvledarna
 - halvledares
 - semiconductor
+dg-publish: True
 tags: 
 - analogelektronik
 - komponentfysik
-dg-publish: True
 ---
 [[Transistor|Transistorer]] byggs av halvledare. Heter halvledare för att de leder lite halvt 😹. Halvledare ligger mellan isolatorer och metaller när det kommer till resisitivitet och [[konduktivitet]].
 

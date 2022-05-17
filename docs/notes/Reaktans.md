@@ -1,9 +1,9 @@
 ---
 aliases: 
 - reaktansen
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Reaktans är ett [[frekvensberoende]] elektriskt motstånd. Förekommer där elektriska eller magnetiska fält utvecklas proportionellt mot ström eller spänning.
 

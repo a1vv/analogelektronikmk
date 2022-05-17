@@ -5,9 +5,9 @@ aliases:
 - OP-amps
 - OP-förstärkaren
 - OP-förstärkarna
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 En OP-[[förstärkare]] är en implementering av en [[Nullor]]?
 

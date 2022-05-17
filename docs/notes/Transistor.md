@@ -3,9 +3,9 @@ aliases:
 - transistorn
 - transistorerna
 - transistorer
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Det finns olika sorters transistorer. 
 

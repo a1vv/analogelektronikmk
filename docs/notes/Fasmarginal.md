@@ -2,9 +2,9 @@
 aliases: 
 - fasmarginalen
 - phase margin
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Fasmarginalen (PM) definieras som skillnaden mellan fasen då [[Slingförstärkning|slingförstärkningen]] är 0dB och 180 grader. Ses lättast med Bode-diagram, som i bilden nedan där den heldragna linjen är slingförstärkninge och denstreckade linjen är 0dB.
 ![[Pasted image 20220322104833.png|350]]

@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Linjärisering av den [[Bipolär transistor|bipolära transistorns]] överföringsdiagram ger en modell med linjära element. Linjära modeller är enkla att räkna på men gäller bara i ett begränsat område kring linjäriseringspunkten - vi kallar detta [[småsignal]]! Kollektorströmmen ([[storsignal]]) ges av
 $$
@@ -11,7 +11,7 @@ Med [[taylorutveckling]] kan man få fram ett uttryck för totalsignalen $i_C$ r
 $$
 i_{C}=I_{C}+i_{c}=f(V_{BE})+f'(V_{BE})\cdot v_{be}+\sum\limits_{n=2}^{\infty} \frac{1}{n!} \frac{\delta^{n}f(V_{BE})}{\delta v^{n}_{BE}} = BIAS+Gain\cdot signal+distortion
 $$
-hybrid $pi$-modellen är likadan för både PNP och NPN och ser ut som i bilden nedan. Kondensatorerna brukar försummas.
+hybrid $pi$-modellen är likadan för både [[Bipolär transistor|PNP]] och [[Bipolär transistor|NPN]] och ser ut som i bilden nedan. Kondensatorerna brukar försummas.
 ![[hybrid-pi-modellen-bjt.png|450]]
 där konstanterna ges av 
 ![[hybrid-pi-bjt-rpi-ro-gm.png|450]]

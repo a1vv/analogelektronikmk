@@ -1,10 +1,10 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - seminarium
 - analogelektronik
-dg-publish: True
 ---
 I→I 
 [[Antiseriesteget|AS]]-[[GB-steg|GB]]-[[GE-steget|GE]]
@@ -20,7 +20,7 @@ samma steg som vanligt
 6. Om det finns, ta bort de mest negativa polen och gör steg 5 igen.
 
 
-det blir alltid en [[Poler|pol]] i beta för att koncensatorn $c_\pi$ Okommer med i uträkningen för beta. Varje [[Kapacitans|kondensator]] ger upphov till en [[Poler|pol]]?
+det blir alltid en [[Poler|pol]] i beta för att [[Kapacitans|kondensatorn]] $c_\pi$ Okommer med i uträkningen för beta. Varje [[Kapacitans|kondensator]] ger upphov till en [[Poler|pol]]?
 
 $$\frac{\omega_{T}}{\beta_{f}}=\frac{1}{r_{\pi}c_{\pi}}$$
 

@@ -5,9 +5,9 @@ aliases:
 - frekvenskompensera
 - frekvenskompenserad
 - frekvenskompenserade
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 ## Varför frekvenskompensera?
 När man designar en [[förstärkare]] har man oftast några önskemål om dess funktion. Det kan vara att man vill att [[Förstärkning|förstärkningen]] ska vara lika stor för alla frekvenser, att frequency roll-off ska vara så skarp som möjligt, att [[Stegsvar|stegsvaret]] ska vara så snabbt som möjligt m.m. För att uppnå önskad prestanda behöver man oftast använda sig av frekvenskompensering.

@@ -4,9 +4,9 @@ aliases:
 - förstärkningen
 - amplification
 - förstärka
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 $$A_{t}=\frac{Q_L}{Q_{g}}$$
 Q = quantity (eftersom det kan vara både spänning och ström), L = load, g = generator. 

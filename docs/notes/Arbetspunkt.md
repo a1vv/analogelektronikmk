@@ -3,9 +3,9 @@ aliases:
 - arbetspunkten
 - Q-point
 - operating point
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Arbetspunkten är strömmen eller spänningen på en terminal utan någon insignal. Arbetspunkten ges av [[Storsignal|storsignalen]]
 

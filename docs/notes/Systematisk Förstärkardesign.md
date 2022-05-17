@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 1. Rita upp [[Förstärkare|förstärkaren]] och [[feedback|återkopplingsnätverket]] med hjälp av [[nullor]]
 2. Byt ut [[Nullor|nullorn]] mot dina [[förstärkande steg]], kopplade så att polariteten på in- och utgång av [[Nullor|nullorn]] stämmer

@@ -1,10 +1,10 @@
 ---
-tags: 
-- analogelektronik
 aliases: 
 - frekvenskompenseringsmetod
 - frekvenskompenseringsmetoderna
 dg-publish: True
+tags: 
+- analogelektronik
 ---
 Viktiga metoder för [[frekvenskompensering]]:
 [[Phantom Zero]]

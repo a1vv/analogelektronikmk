@@ -3,9 +3,9 @@ aliases:
 - differentialsteg
 - AS-steget
 - AS-steg
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 ![[Pasted image 20220207142610.png]]
 

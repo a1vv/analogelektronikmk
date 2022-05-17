@@ -1,10 +1,10 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - övning
 - analogelektronik
-dg-publish: True
 ---
 # 2-pole [[system]]
 

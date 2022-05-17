@@ -5,9 +5,9 @@ aliases:
 - induktansen
 - induktiv
 - induktivt
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 [[Impedans|Impedansen]] hos en spole är rent imaginär ([[reaktans]]) och ges av
 $$

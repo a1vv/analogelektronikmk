@@ -1,9 +1,9 @@
 ---
 aliases: 
 - current mirror
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 ![[strömspegling.png|400]]
 En ström speglas 

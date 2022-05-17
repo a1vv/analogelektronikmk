@@ -1,10 +1,10 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - föreläsning
 - analogelektronik
-dg-publish: True
 ---
 [[Frekvenskompensering]]
 [[Capacitive Narrowbanding]]

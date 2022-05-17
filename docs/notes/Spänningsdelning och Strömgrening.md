@@ -2,9 +2,9 @@
 aliases: 
 - spänningsdelning
 - strömgrening
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 # Spänningsdelning
 ![[spänningsdelning.png]]

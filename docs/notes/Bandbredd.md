@@ -1,10 +1,10 @@
 ---
-tags: 
-- analogelektronik
 aliases: 
 - bandwidth
 - bandbredden
 dg-publish: True
+tags: 
+- analogelektronik
 ---
 # Maximal bandbredd
 Maximal bandbredd uppnås med [[Systempoler|systempolerna]] i [[butterworthposition]]

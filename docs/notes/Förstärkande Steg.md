@@ -4,9 +4,9 @@ aliases:
 - transistorsteg
 - transistorstegen
 - förstärkarsteg
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Genom att koppla hop olika terminaler kan en [[transistor]] konfigureras på tre olika sätt i en [[Tvåportsnätverk|tvåport]]. Kallas “steg” på svenska.
 

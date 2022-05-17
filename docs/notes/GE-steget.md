@@ -1,10 +1,11 @@
 ---
 aliases: 
+- ge-steg
 - common emitter
 - common source
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Emittorn är den terminal som delas mellan [[Tvåportsnätverk|tvåportens]] in och utgång. 
 ![[ge-steget.png]]

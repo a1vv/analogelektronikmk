@@ -1,10 +1,10 @@
 ---
-tags: 
-- analogelektronik
 aliases: 
 - fantomnollställe
 - fantomnolla
 dg-publish: True
+tags: 
+- analogelektronik
 ---
 Det kallas fantom för att fantomnollan inte blir synlig i ekvationen för den [[Sluten förstärkning|slutna förstärkningen]]. 
 

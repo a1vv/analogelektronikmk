@@ -2,10 +2,10 @@
 aliases: 
 - signaler
 - signalen
+dg-publish: True
 tags: 
 - analogelektronik
 - digitalteknik
-dg-publish: True
 ---
 En signal är en variation i en enhet. Antingen stokastisk (slumpmässig) eller deterministisk (bestämd). En signal kan användas för att skicka information. Endast signalerna som skickar användbar information är nyttiga, övriga signaler kallas brus eller noise.
 

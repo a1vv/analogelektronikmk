@@ -14,9 +14,9 @@ aliases:
 - slingnollställen
 - slingnollställe
 - slingnollställena
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Slingpoler är [[Poler|polerna]] till [[Slingförstärkning|slingförstärkningen]] ($A \beta(s)$), [[systempoler]] å andra sidan är [[Poler|polerna]] till [[Förstärkning|förstärkningen]]!!!! Slingpoler betecknas $p_{1}, p_{2}$ osv.
 

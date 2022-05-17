@@ -1,9 +1,9 @@
 ---
 aliases: 
 - övergångsfrekvensen
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Övergångsfrekvensen är den frekvens då [[GE-steget]] inte längre ger någon [[förstärkning]]. DVS frekvensen då strömförstärkningen är lika med ett. 
 

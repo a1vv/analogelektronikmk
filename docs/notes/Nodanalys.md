@@ -3,9 +3,9 @@ aliases:
 - väsentlig nod
 - supernod
 - referensnod
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 En nod är en knytpunkt i en krets där minst två grenar binds samman. En *väsentlig nod* är en nod där minst tre grenar binds samman. En *supernod* uppstår om man binder samman två väsentliga noder.
 

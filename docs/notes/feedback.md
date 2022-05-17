@@ -9,9 +9,9 @@ aliases:
 - feedback-nätverket
 - återkopplingsnätet
 - återkopplade
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 > Har man olika enheter på in och utsignal behöver man endast en komponent i återkopplingsnätverket, annars behöver man två.
 

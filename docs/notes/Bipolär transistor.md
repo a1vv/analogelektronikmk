@@ -3,9 +3,12 @@ aliases:
 - npn-transistor
 - pnp-transistor
 - BJT
+- npn
+- pnp
+- bipolar junction transistor
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Bipolära [[Transistor|transistorer]] är [[halvledare]] med både elektroner (n) och hål (p). ELektroner i [[Ledningsband|ledningsbandet]] - potentiell [[energi]] minskar med positiv [[potential]]. Hål i valenssbandet - potentiell [[energi]] ökar med positiv [[potential]]. Vi kan rita de i samma diagram. Elektroner uppför sig som vatten och hål uppför sig som 'bubblor' i vatten. Bipolär = både elektroner och hål!
 ![[bipoläratransistorer.png|300]]
@@ -26,6 +29,8 @@ $\beta=\frac{I_{C}}{I_{B}}=\frac{\mu_{n}W_{E}N_{DE}}{\mu_{p}W_{B}N_{AB}}$ och ä
 
 
 Utnyttjar att strömmen är oberoende av spänningen i en backspänd PN-övergång. (tänk kurvan för hur strömmen $I_{C}$ beror på spänningen exponentiellt. På vänster halvplan är strömmen linjär och ligger väldigt nära under x-axeln!) 
+
+“För att kunna hålla en framspänning måste det tillföras hål till basen”. 
 
 
 

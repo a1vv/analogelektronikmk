@@ -1,9 +1,9 @@
 ---
-tags: 
-- analogelektronik
 aliases: 
 - bandwidth estimation
 dg-publish: True
+tags: 
+- analogelektronik
 ---
 [[Bandbredd|Bandwidth]] estimation gives us the maximum achievable [[Bandbredd|bandwidth]] when we compensate a [[system]] with some [[Slingpoler och Slingnollställen|loop-poles]]. [[Bandbredd|Bandwidth]] estimation is done using LP: [[LP-produkten|Loop-gain pole product]] $= | 1-AB(0) |p_1p_2p_3…p_n$(n [[Dominanta och Icke-dominanta poler|dominanta poler]]).
 $$BW=\omega_0=LP_{n}^\frac{1}{n}$$

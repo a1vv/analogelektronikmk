@@ -3,10 +3,10 @@ aliases:
 - mosfet
 - fet
 - fieldeffecttransistor
+dg-publish: True
 tags: 
 - komponentfysik
 - analogelektronik
-dg-publish: True
 ---
 Metal Oxide Semiconductor Field Effect [[Transistor]]
 ![[nMOS fälteffekttransistor.png]]

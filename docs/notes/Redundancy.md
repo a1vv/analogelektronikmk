@@ -1,10 +1,10 @@
 ---
 aliases: 
 - redundant
+dg-publish: True
 tags: 
 - analogelektronik
 - digitalteknik
-dg-publish: True
 ---
 # Electronics
 Everything in series with a current source can be removed, the state of every component is described by the voltage and the current. If we have a current source in series with a couple of resistors and want to know the state of one of the resistors, then the other resistors are redundant.

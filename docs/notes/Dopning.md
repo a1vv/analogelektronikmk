@@ -10,10 +10,10 @@ aliases:
 - dopning
 - p-dopad
 - n-dopad
+dg-publish: True
 tags: 
 - analogelektronik
 - komponentfysik
-dg-publish: True
 ---
 # Dopning n-typ: Q >0 (elektroner)
 Några Si-atomer byts ut mot en atom med en elektron mer. Denna extra elektron hamnar i [[Ledningsband|ledningsbandet]] och blir en fri elektron som kan leda ström. Man får negativa [[laddningsbärare]] (elektroner) i [[Ledningsband|ledningsbandet]]

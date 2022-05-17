@@ -2,9 +2,9 @@
 aliases: 
 - amplifier
 - förstärkaren
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 En förstärkare ökar effektinnehållet i en [[Signal]].  En förstärkare FÖRSTÄRKER en [[Signal]] utan att ändra dess form.
 

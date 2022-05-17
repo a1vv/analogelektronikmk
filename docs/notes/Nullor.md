@@ -1,9 +1,9 @@
 ---
 aliases: 
 - nullorn
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 **question**{: #question .hash}  
  can you say that a nullor is a “generic” two-port?

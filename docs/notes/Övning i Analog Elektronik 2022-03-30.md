@@ -1,10 +1,10 @@
 ---
 aliases: 
 - 
+dg-publish: True
 tags: 
 - övning
 - analogelektronik
-dg-publish: True
 ---
 [[frekvenskompensering]]
 - hur vi kan manipulera en krets beteende 

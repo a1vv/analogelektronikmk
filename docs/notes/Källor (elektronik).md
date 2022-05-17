@@ -3,9 +3,9 @@ aliases:
 - spänningskälla
 - strömkälla
 - spännings-/strömkälla
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 # Ideala och verkliga källor
 ![[ideal och verklig spänningskälla.png]]

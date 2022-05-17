@@ -2,10 +2,10 @@
 aliases: 
 - pn-dioder
 - pn-dioden
+dg-publish: True
 tags: 
 - komponentfysik
 - analogelektronik
-dg-publish: True
 ---
 Ett likriktat element som bara leder ström i ena riktningen. Består av två regioner, den ena är n-[[Dopning|dopad]] och den andra är p-[[Dopning|dopad]].
 ![[pn-diod.png]]

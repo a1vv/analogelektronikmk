@@ -2,10 +2,10 @@
 aliases: 
 - polerna
 - pol
+dg-publish: True
 tags: 
 - analogelektronik
 - funktionsteori
-dg-publish: True
 ---
 En funktion $f$ har en pol i $z=c$ om gränsvärdet är oändligheten. Det enklaste exemplet är [[Rationella Funktioner]]; [[nollställen]] till nämnaren ger upphov till poler.
 

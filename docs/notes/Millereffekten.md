@@ -1,7 +1,7 @@
 ---
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Talar om hur $c_{\mu}$ transformeras till $c_{\mu}'$ , som är [[Kapacitans|kapacitansen]] man ser från ingången
 

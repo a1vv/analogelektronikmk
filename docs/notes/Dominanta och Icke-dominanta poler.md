@@ -9,9 +9,9 @@ aliases:
 - icke-dominanta polerna
 - icke-dominanta polen
 - icke-dominant pol
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 **Dominanta [[poler]]** kan flyttas till önskad position. Resterande [[poler]] är **icke-dominanta**. Icke-dominanta [[poler]] kan bidraga till fasvridning och äventyra stabiliteten.
 

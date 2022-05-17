@@ -1,9 +1,9 @@
 ---
-tags: 
-- analogelektronik
 aliases: 
 - negativt återkopplade
 dg-publish: True
+tags: 
+- analogelektronik
 ---
 Utsignalen mäts, dämpas och jämförs med insignalen. Fel hos utsignalen kan korrigeras. Negativt [[Feedback|återkopplade]] [[förstärkare]] ger stabilare [[Förstärkning]] mot parametervariationer. Men de kan behöva frekvenskompenseras för att fås stabila.	
 

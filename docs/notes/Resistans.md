@@ -1,10 +1,10 @@
 ---
 aliases: 
 - inre resistans
+dg-publish: True
 tags: 
 - komponentfysik
 - analogelektronik
-dg-publish: True
 ---
 $$R = \frac{U}{I}$$
 Kan mätas med [[multimeter]], konstant ström, eller brygga (ex [[Wheatstonebrygga]]).

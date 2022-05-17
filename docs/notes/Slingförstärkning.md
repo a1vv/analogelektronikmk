@@ -3,9 +3,9 @@ aliases:
 - slingförstärkningen
 - loop gain
 - loop-gain
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 $$
 \begin{cases}

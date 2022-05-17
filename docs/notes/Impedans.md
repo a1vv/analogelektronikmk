@@ -4,9 +4,9 @@ aliases:
 - impedanser
 - impedanserna
 - impedance
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 “Växelströmsmotstånd”
 

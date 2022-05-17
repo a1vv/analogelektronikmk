@@ -5,9 +5,9 @@ aliases:
 - seriekopplad
 - parallellkopplad
 - i serie
+dg-publish: True
 tags: 
 - analogelektronik
-dg-publish: True
 ---
 Grenar är parallellkopplade om deras två grenar är gemensamma
 
